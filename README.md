@@ -2,6 +2,10 @@
 
 Sitio estático listo para publicar en GitHub Pages.
 
+Publicado en:
+
+- `https://gsaunerocode.github.io/CV/`
+
 ## Archivos principales
 
 - `index.html`
