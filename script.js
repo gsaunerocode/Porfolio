@@ -10,9 +10,9 @@ const translations = {
       primary: "Explore experience <span>↓</span>",
       download: "Download CV · EN <span>↗</span>",
       linkedinPdf: "LinkedIn profile PDF <span>↗</span>",
-      photoLabel: "Human-first operator",
+      photoLabel: "IT Global Management - Operations",
       photoCaption: "Global scale. Clear ownership. Calm execution.",
-      stamp: "years in<br />technology"
+      stamp: "Years in technology"
     },
     metrics: {
       years: "years in technology operations",
@@ -55,16 +55,16 @@ const translations = {
       course: "Course completion",
       historical: "Historical credential",
       cards: [
-        { type: "course", title: "Certified Scrum Product Owner (CSPO)", issuer: "ALAIMO Labs", note: "16-hour course completed on September 5, 2023. The supplied document identifies itself as a certificate of attendance.", file: "assets/certifications/cspo-alaimo-labs.pdf" },
-        { type: "course", title: "Cybersecurity and Cloud Fundamentals 1.0", issuer: "Fortinet", note: "Course completion acknowledged August 20, 2026.", file: "assets/certifications/cybersecurity-cloud-fundamentals-fortinet.pdf" },
-        { type: "course", title: "Introduction to Next Generation Firewall 1.0", issuer: "Fortinet", note: "Course completion acknowledged August 20, 2026.", file: "assets/certifications/next-generation-firewall-fortinet.pdf" },
-        { type: "historical", title: "ITIL Foundation in IT Service Management", issuer: "AXELOS / PeopleCert · ITIL v3", note: "Certificate on file. The document shows a renew-by date of July 15, 2014.", file: "assets/certifications/itil-v3-peoplecert.pdf" },
-        { type: "historical", title: "Certified SAFe 4 Scrum Master", issuer: "Scaled Agile", note: "Certificate on file; valid from October 12, 2018 to October 11, 2019.", file: "assets/certifications/safe-4-scrum-master.pdf" },
-        { type: "course", title: "Ethical Hacker", issuer: "Cisco Networking Academy", note: "Verified badge supplied as a PNG asset.", file: "assets/certifications/ethical-hacker-cisco.png" },
-        { type: "listed", title: "Certified ScrumMaster (CSM)", issuer: "CV-listed certification", note: "Included in the supplied CV; no separate certificate file was included in the source folder." },
-        { type: "listed", title: "Lean Six Sigma Yellow Belt", issuer: "CV-listed certification", note: "Included in the supplied CV; no separate certificate file was included in the source folder." },
-        { type: "listed", title: "eCopy ShareScan 6 Technical Certification", issuer: "LinkedIn-listed certification", note: "Certification listed in the supplied LinkedIn profile export." },
-        { type: "listed", title: "EY Transformative Leadership — Teaming — Bronze", issuer: "LinkedIn-listed certification", note: "Leadership learning listed in the supplied LinkedIn profile export." }
+        { type: "course", mark: "AL", markClass: "alaimo", title: "Certified Scrum Product Owner (CSPO)", issuer: "ALAIMO Labs", note: "16-hour course completed on September 5, 2023. The supplied document identifies itself as a certificate of attendance.", file: "assets/certifications/cspo-alaimo-labs.pdf" },
+        { type: "course", mark: "FT", markClass: "fortinet", title: "Cybersecurity and Cloud Fundamentals 1.0", issuer: "Fortinet", note: "Course completion acknowledged August 20, 2026.", file: "assets/certifications/cybersecurity-cloud-fundamentals-fortinet.pdf" },
+        { type: "course", mark: "FT", markClass: "fortinet", title: "Introduction to Next Generation Firewall 1.0", issuer: "Fortinet", note: "Course completion acknowledged August 20, 2026.", file: "assets/certifications/next-generation-firewall-fortinet.pdf" },
+        { type: "historical", mark: "ITIL", markClass: "axelos", title: "ITIL Foundation in IT Service Management", issuer: "AXELOS / PeopleCert · ITIL v3", note: "Certificate on file. The document shows a renew-by date of July 15, 2014.", file: "assets/certifications/itil-v3-peoplecert.pdf" },
+        { type: "historical", mark: "SAFe", markClass: "safe", title: "Certified SAFe 4 Scrum Master", issuer: "Scaled Agile", note: "Certificate on file; valid from October 12, 2018 to October 11, 2019.", file: "assets/certifications/safe-4-scrum-master.pdf" },
+        { type: "course", mark: "cisco", markClass: "cisco", title: "Ethical Hacker", issuer: "Cisco Networking Academy", note: "Verified badge supplied as a PNG asset.", file: "assets/certifications/ethical-hacker-cisco.png" },
+        { type: "listed", mark: "CSM", markClass: "scrum", title: "Certified ScrumMaster (CSM)", issuer: "CV-listed certification", note: "Included in the supplied CV; no separate certificate file was included in the source folder." },
+        { type: "listed", mark: "Σ", markClass: "sixsigma", title: "Lean Six Sigma Yellow Belt", issuer: "CV-listed certification", note: "Included in the supplied CV; no separate certificate file was included in the source folder." },
+        { type: "listed", mark: "eS", markClass: "ecopy", title: "eCopy ShareScan 6 Technical Certification", issuer: "LinkedIn-listed certification", note: "Certification listed in the supplied LinkedIn profile export." },
+        { type: "listed", mark: "EY", markClass: "ey", title: "EY Transformative Leadership — Teaming — Bronze", issuer: "LinkedIn-listed certification", note: "Leadership learning listed in the supplied LinkedIn profile export." }
       ]
     },
     toolkit: {
@@ -100,9 +100,9 @@ const translations = {
       primary: "Ver experiencia <span>↓</span>",
       download: "Descargar CV · ES <span>↗</span>",
       linkedinPdf: "Perfil de LinkedIn en PDF <span>↗</span>",
-      photoLabel: "Liderazgo humano",
+      photoLabel: "Gestión Global de TI - Operaciones",
       photoCaption: "Escala global. Responsabilidad clara. Ejecución serena.",
-      stamp: "años en<br />tecnología"
+      stamp: "Años en tecnología"
     },
     metrics: {
       years: "años en operaciones tecnológicas",
@@ -145,16 +145,16 @@ const translations = {
       course: "Curso completado",
       historical: "Credencial histórica",
       cards: [
-        { type: "course", title: "Certified Scrum Product Owner (CSPO)", issuer: "ALAIMO Labs", note: "Curso de 16 horas completado el 5 de septiembre de 2023. El documento suministrado se identifica como certificado de asistencia.", file: "assets/certifications/cspo-alaimo-labs.pdf" },
-        { type: "course", title: "Cybersecurity and Cloud Fundamentals 1.0", issuer: "Fortinet", note: "Curso completado según constancia del 20 de agosto de 2026.", file: "assets/certifications/cybersecurity-cloud-fundamentals-fortinet.pdf" },
-        { type: "course", title: "Introduction to Next Generation Firewall 1.0", issuer: "Fortinet", note: "Curso completado según constancia del 20 de agosto de 2026.", file: "assets/certifications/next-generation-firewall-fortinet.pdf" },
-        { type: "historical", title: "ITIL Foundation in IT Service Management", issuer: "AXELOS / PeopleCert · ITIL v3", note: "Certificado disponible. El documento muestra una fecha de renovación del 15 de julio de 2014.", file: "assets/certifications/itil-v3-peoplecert.pdf" },
-        { type: "historical", title: "Certified SAFe 4 Scrum Master", issuer: "Scaled Agile", note: "Certificado disponible; válido del 12 de octubre de 2018 al 11 de octubre de 2019.", file: "assets/certifications/safe-4-scrum-master.pdf" },
-        { type: "course", title: "Ethical Hacker", issuer: "Cisco Networking Academy", note: "Badge verificado suministrado como imagen PNG.", file: "assets/certifications/ethical-hacker-cisco.png" },
-        { type: "listed", title: "Certified ScrumMaster (CSM)", issuer: "Certificación listada en CV", note: "Incluida en el CV suministrado; no se encontró un archivo de certificado separado en la carpeta fuente." },
-        { type: "listed", title: "Lean Six Sigma Yellow Belt", issuer: "Certificación listada en CV", note: "Incluida en el CV suministrado; no se encontró un archivo de certificado separado en la carpeta fuente." },
-        { type: "listed", title: "eCopy ShareScan 6 Technical Certification", issuer: "Certificación listada en LinkedIn", note: "Certificación listada en el PDF de perfil de LinkedIn suministrado." },
-        { type: "listed", title: "EY Transformative Leadership — Teaming — Bronze", issuer: "Certificación listada en LinkedIn", note: "Formación de liderazgo listada en el PDF de perfil de LinkedIn suministrado." }
+        { type: "course", mark: "AL", markClass: "alaimo", title: "Certified Scrum Product Owner (CSPO)", issuer: "ALAIMO Labs", note: "Curso de 16 horas completado el 5 de septiembre de 2023. El documento suministrado se identifica como certificado de asistencia.", file: "assets/certifications/cspo-alaimo-labs.pdf" },
+        { type: "course", mark: "FT", markClass: "fortinet", title: "Cybersecurity and Cloud Fundamentals 1.0", issuer: "Fortinet", note: "Curso completado según constancia del 20 de agosto de 2026.", file: "assets/certifications/cybersecurity-cloud-fundamentals-fortinet.pdf" },
+        { type: "course", mark: "FT", markClass: "fortinet", title: "Introduction to Next Generation Firewall 1.0", issuer: "Fortinet", note: "Curso completado según constancia del 20 de agosto de 2026.", file: "assets/certifications/next-generation-firewall-fortinet.pdf" },
+        { type: "historical", mark: "ITIL", markClass: "axelos", title: "ITIL Foundation in IT Service Management", issuer: "AXELOS / PeopleCert · ITIL v3", note: "Certificado disponible. El documento muestra una fecha de renovación del 15 de julio de 2014.", file: "assets/certifications/itil-v3-peoplecert.pdf" },
+        { type: "historical", mark: "SAFe", markClass: "safe", title: "Certified SAFe 4 Scrum Master", issuer: "Scaled Agile", note: "Certificado disponible; válido del 12 de octubre de 2018 al 11 de octubre de 2019.", file: "assets/certifications/safe-4-scrum-master.pdf" },
+        { type: "course", mark: "cisco", markClass: "cisco", title: "Ethical Hacker", issuer: "Cisco Networking Academy", note: "Badge verificado suministrado como imagen PNG.", file: "assets/certifications/ethical-hacker-cisco.png" },
+        { type: "listed", mark: "CSM", markClass: "scrum", title: "Certified ScrumMaster (CSM)", issuer: "Certificación listada en CV", note: "Incluida en el CV suministrado; no se encontró un archivo de certificado separado en la carpeta fuente." },
+        { type: "listed", mark: "Σ", markClass: "sixsigma", title: "Lean Six Sigma Yellow Belt", issuer: "Certificación listada en CV", note: "Incluida en el CV suministrado; no se encontró un archivo de certificado separado en la carpeta fuente." },
+        { type: "listed", mark: "eS", markClass: "ecopy", title: "eCopy ShareScan 6 Technical Certification", issuer: "Certificación listada en LinkedIn", note: "Certificación listada en el PDF de perfil de LinkedIn suministrado." },
+        { type: "listed", mark: "EY", markClass: "ey", title: "EY Transformative Leadership — Teaming — Bronze", issuer: "Certificación listada en LinkedIn", note: "Formación de liderazgo listada en el PDF de perfil de LinkedIn suministrado." }
       ]
     },
     toolkit: {
@@ -220,7 +220,10 @@ function renderCredentials(content) {
   const list = document.querySelector("#credential-list");
   list.innerHTML = content.credentials.cards.map((card) => `
     <article class="credential-card ${card.type === "listed" ? "is-listed" : ""}">
-      <p class="credential-type">${credentialLabel(card.type, content.credentials)}</p>
+      <div class="credential-top">
+        <span class="credential-mark mark-${card.markClass}" aria-hidden="true">${card.mark}</span>
+        <p class="credential-type">${credentialLabel(card.type, content.credentials)}</p>
+      </div>
       <h3>${card.title}</h3>
       <p class="credential-issuer">${card.issuer}</p>
       <p>${card.note}</p>
