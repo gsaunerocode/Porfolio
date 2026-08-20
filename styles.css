@@ -203,7 +203,7 @@ h1 { max-width: 830px; margin-bottom: 28px; font-size: clamp(48px, 6.4vw, 94px);
 .mark-scrum { background: linear-gradient(135deg, #42dcf2, #1aa5c6); color: #08101f; }
 .mark-sixsigma { background: linear-gradient(135deg, #ffffff, #d7e0e4); color: #08101f; font-size: 26px; }
 .mark-ecopy { background: linear-gradient(135deg, #5c3c92, #b596e7); color: #fff; }
-.mark-ey { background: linear-gradient(135deg, #ffe600, #f2b900); color: #08101f; font-size: 17px; }
+.mark-ey { background: linear-gradient(135deg, #ffffff 0%, #e5e9ed 38%, #aab4bf 72%, #f8fafb 100%); border: 1px solid rgba(8, 16, 31, 0.18); color: #08101f; font-size: 17px; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7); }
 .credential-type { display: flex; align-items: center; justify-content: flex-end; gap: 12px; margin: 3px 0 0 auto; color: var(--cyan-deep); font: 500 11px var(--mono); letter-spacing: 0.08em; line-height: 1.35; text-align: right; text-transform: uppercase; }
 .credential-type::after { width: 8px; height: 8px; border-radius: 50%; content: ""; background: var(--coral); box-shadow: 0 0 0 5px rgba(255, 116, 95, 0.12); }
 .credential-card h3 { margin-bottom: 8px; font-size: 24px; line-height: 1.08; }

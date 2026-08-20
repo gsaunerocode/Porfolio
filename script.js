@@ -64,7 +64,7 @@ const translations = {
         { type: "listed", mark: "CSM", markClass: "scrum", title: "Certified ScrumMaster (CSM)", issuer: "CV-listed certification", note: "Included in the supplied CV; no separate certificate file was included in the source folder." },
         { type: "listed", mark: "Σ", markClass: "sixsigma", title: "Lean Six Sigma Yellow Belt", issuer: "CV-listed certification", note: "Included in the supplied CV; no separate certificate file was included in the source folder." },
         { type: "listed", mark: "eS", markClass: "ecopy", title: "eCopy ShareScan 6 Technical Certification", issuer: "LinkedIn-listed certification", note: "Certification listed in the supplied LinkedIn profile export." },
-        { type: "listed", mark: "EY", markClass: "ey", title: "EY Transformative Leadership — Teaming — Bronze", issuer: "LinkedIn-listed certification", note: "Leadership learning listed in the supplied LinkedIn profile export." }
+        { type: "listed", mark: "EY", markClass: "ey", title: "EY Transformative Leadership — Teaming — Silver", issuer: "LinkedIn-listed certification", note: "Leadership learning listed in the supplied LinkedIn profile export." }
       ]
     },
     toolkit: {
@@ -154,7 +154,7 @@ const translations = {
         { type: "listed", mark: "CSM", markClass: "scrum", title: "Certified ScrumMaster (CSM)", issuer: "Certificación listada en CV", note: "Incluida en el CV suministrado; no se encontró un archivo de certificado separado en la carpeta fuente." },
         { type: "listed", mark: "Σ", markClass: "sixsigma", title: "Lean Six Sigma Yellow Belt", issuer: "Certificación listada en CV", note: "Incluida en el CV suministrado; no se encontró un archivo de certificado separado en la carpeta fuente." },
         { type: "listed", mark: "eS", markClass: "ecopy", title: "eCopy ShareScan 6 Technical Certification", issuer: "Certificación listada en LinkedIn", note: "Certificación listada en el PDF de perfil de LinkedIn suministrado." },
-        { type: "listed", mark: "EY", markClass: "ey", title: "EY Transformative Leadership — Teaming — Bronze", issuer: "Certificación listada en LinkedIn", note: "Formación de liderazgo listada en el PDF de perfil de LinkedIn suministrado." }
+        { type: "listed", mark: "EY", markClass: "ey", title: "EY Transformative Leadership — Teaming — Silver", issuer: "Certificación listada en LinkedIn", note: "Formación de liderazgo listada en el PDF de perfil de LinkedIn suministrado." }
       ]
     },
     toolkit: {
