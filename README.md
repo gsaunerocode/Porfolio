@@ -1,54 +1,20 @@
-# Gabriel H. Saunero | Landing profesional
+# Gabriel H. Saunero — Bilingual Portfolio
 
-Sitio estático listo para publicar en GitHub Pages.
+Static, bilingual portfolio for Gabriel H. Saunero, Technology Operations & Deployment Leader.
 
-Publicado en:
+## Included
 
-- `https://gsaunerocode.github.io/CV/`
+- English / Spanish language switch with persisted preference.
+- Full career timeline from Teleperformance through Venn Technology.
+- LinkedIn-derived scope, projects, recognition and additional credentials.
+- Original CV PDFs, LinkedIn profile export, selfie and supplied certification files.
+- Responsive, accessible layout with no build step or external runtime dependencies.
 
-## Archivos principales
+## Publish with GitHub Pages
 
-- `index.html`
-- `styles.css`
-- `script.js`
-- `assets/img/gabriel-saunero-profile.png`
-- `assets/cv/CV-Gabriel-Saunero-ES.docx`
-- `assets/cv/CV-Gabriel-Saunero-EN.docx`
+1. Open the repository's **Settings → Pages**.
+2. Choose **Deploy from a branch**.
+3. Select `main` and the `/ (root)` folder.
+4. Save and open the generated Pages URL.
 
-## Publicarlo con la cuenta `gsaunerocode`
-
-### Opción 1: sitio principal de usuario
-
-1. Crear un repositorio llamado `gsaunerocode.github.io`.
-2. Subir todo el contenido de esta carpeta al root del repositorio.
-3. Esperar unos minutos.
-4. El sitio quedará publicado en `https://gsaunerocode.github.io/`.
-
-### Opción 2: sitio de proyecto
-
-1. Crear cualquier repositorio, por ejemplo `perfil-profesional`.
-2. Subir todo el contenido de esta carpeta.
-3. En GitHub ir a `Settings > Pages`.
-4. En `Build and deployment`, elegir `Deploy from a branch`.
-5. Seleccionar la rama `main` y la carpeta `/root`.
-6. El sitio quedará publicado en una URL similar a `https://gsaunerocode.github.io/perfil-profesional/`.
-
-## Publicación sin `git`
-
-Si en esta PC no tenés `git` instalado, también podés:
-
-1. Crear el repositorio desde GitHub web.
-2. Elegir `uploading an existing file`.
-3. Arrastrar todos los archivos de esta carpeta.
-4. Confirmar el commit.
-5. Activar GitHub Pages desde `Settings > Pages` si no usás el repo `gsaunerocode.github.io`.
-
-## Nota
-
-La página ya incluye:
-
-- versión bilingüe ES/EN
-- foto de perfil
-- enlaces de contacto
-- enlaces de descarga para ambos CV
-- estructura compatible con GitHub Pages
+The repository is intentionally static so it can also be opened directly from `index.html`.
