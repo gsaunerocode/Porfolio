@@ -10,6 +10,7 @@ const translations = {
       primary: "Explore experience <span>↓</span>",
       download: "Download CV · EN <span>↗</span>",
       linkedinPdf: "LinkedIn profile PDF <span>↗</span>",
+      linkedinContact: "LinkedIn profile",
       photoLabel: "IT Global Management - Operations",
       photoCaption: "Global scale. Clear ownership. Calm execution.",
       stamp: "Years in technology"
@@ -82,8 +83,8 @@ const translations = {
     details: {
       educationKicker: "EDUCATION", educationTitle: "Technical foundation.", educationDegree: "Technical Degree in Computer Science", educationSchool: "Technical School No. 1 Otto Krause · Buenos Aires · 1996–2001",
       languagesKicker: "LANGUAGES", languagesTitle: "Cross-cultural by default.",
-      recognitionKicker: "RECOGNITION", recognitionTitle: "Leadership that travels.", award: "EY Cultural Global Enhancement Champion", awardNote: "LinkedIn-listed recognition for contributing to a stronger global culture.",
-      languages: [["Spanish", "Native / bilingual"], ["English", "Advanced C2 · LinkedIn: native / bilingual"], ["Portuguese", "Basic A2 / elementary"], ["Italian", "Basic A2"]]
+      recognitionKicker: "RECOGNITION", recognitionTitle: "Leadership that travels.", award: "EY Cultural Global Enhancement Champion", awardNote: "LinkedIn-listed recognition for contributing to a stronger global culture.<br /><span class=\"recognition-travel\">International leadership travel: New York, US · Frankfurt, GER · Trivandrum, IN.</span>",
+      languages: [["Spanish", "Native / bilingual"], ["English", "Advanced C2"], ["Portuguese", "Basic A2"], ["Italian", "Basic A2"]]
     },
     contact: { kicker: "CONNECT", title: "Let’s make the next complex thing feel simple.", body: "For global operations, deployment leadership, service reliability or a thoughtful conversation about delivery at scale.", email: "Email Gabriel <span>↗</span>", linkedin: "Open LinkedIn <span>↗</span>", side: "Based in Castelar<br />Buenos Aires, Argentina<br />Working globally" },
     footer: { note: "Technology operations / deployment / service reliability", back: "Back to top ↑" },
@@ -100,6 +101,7 @@ const translations = {
       primary: "Ver experiencia <span>↓</span>",
       download: "Descargar CV · ES <span>↗</span>",
       linkedinPdf: "Perfil de LinkedIn en PDF <span>↗</span>",
+      linkedinContact: "Perfil de LinkedIn",
       photoLabel: "Gestión Global de TI - Operaciones",
       photoCaption: "Escala global. Responsabilidad clara. Ejecución serena.",
       stamp: "Años en tecnología"
@@ -172,8 +174,8 @@ const translations = {
     details: {
       educationKicker: "EDUCACIÓN", educationTitle: "Base técnica.", educationDegree: "Título Técnico en Computación", educationSchool: "Escuela Técnica N.° 1 Otto Krause · Buenos Aires · 1996–2001",
       languagesKicker: "IDIOMAS", languagesTitle: "Multicultural por naturaleza.",
-      recognitionKicker: "RECONOCIMIENTO", recognitionTitle: "Liderazgo que trasciende fronteras.", award: "EY Cultural Global Enhancement Champion", awardNote: "Reconocimiento listado en LinkedIn por contribuir a una cultura global más sólida.",
-      languages: [["Español", "Nativo / bilingüe"], ["Inglés", "Avanzado C2 · LinkedIn: nativo / bilingüe"], ["Portugués", "Básico A2 / elemental"], ["Italiano", "Básico A2"]]
+      recognitionKicker: "RECONOCIMIENTO", recognitionTitle: "Liderazgo que trasciende fronteras.", award: "EY Cultural Global Enhancement Champion", awardNote: "Reconocimiento listado en LinkedIn por contribuir a una cultura global más sólida.<br /><span class=\"recognition-travel\">Viajes internacionales de liderazgo: New York, US · Frankfurt, GER · Trivandrum, IN.</span>",
+      languages: [["Español", "Nativo / bilingüe"], ["Inglés", "Avanzado C2"], ["Portugués", "Básico A2"], ["Italiano", "Básico A2"]]
     },
     contact: { kicker: "CONECTEMOS", title: "Hagamos que lo próximo complejo se sienta simple.", body: "Para operaciones globales, liderazgo de despliegues, confiabilidad de servicios o una conversación con criterio sobre entregar a escala.", email: "Escribir a Gabriel <span>↗</span>", linkedin: "Abrir LinkedIn <span>↗</span>", side: "Basado en Castelar<br />Buenos Aires, Argentina<br />Trabajo global" },
     footer: { note: "operaciones tecnológicas / despliegues / confiabilidad de servicios", back: "Volver arriba ↑" },
