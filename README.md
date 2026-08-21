@@ -8,6 +8,7 @@ Static, bilingual portfolio for Gabriel H. Saunero, Technology Operations & Depl
 - Full career timeline from Teleperformance through Venn Technology.
 - LinkedIn-derived scope, projects, recognition and additional credentials.
 - Original CV PDFs, LinkedIn profile export, selfie and supplied certification files.
+- Official public issuer badge artwork for Scrum Alliance, Fortinet, Scaled Agile, Cisco Networking Academy and EY; original certificate previews are used where a version-specific public badge was not available.
 - Responsive, accessible layout with no build step or external runtime dependencies.
 
 ## Publish with GitHub Pages
