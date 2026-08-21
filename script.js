@@ -54,9 +54,6 @@ const translations = {
       badgeSource: "Issuer reference",
       badgeUnavailable: "No public badge",
       listed: "Listed in source profile",
-      onFile: "Certificate on file",
-      course: "Course completion",
-      historical: "Historical credential",
       cards: [
         { type: "course", mark: "AL", markClass: "alaimo", title: "Certified Scrum Product Owner (CSPO)", issuer: "ALAIMO Labs", note: "16-hour course completed on September 5, 2023. The supplied document identifies itself as a certificate of attendance; the official Scrum Alliance CSPO badge is shown as issuer artwork.", file: "assets/certifications/cspo-alaimo-labs.pdf", badge: "assets/badges/scrum-alliance-cspo.png", badgeAlt: "Scrum Alliance Certified Scrum Product Owner badge", badgeSourceUrl: "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner" },
         { type: "course", mark: "FT", markClass: "fortinet", title: "Cybersecurity and Cloud Fundamentals 1.0", issuer: "Fortinet", note: "Course completion acknowledged August 20, 2026; official Fortinet NSE 1 Cybersecurity badge shown.", file: "assets/certifications/cybersecurity-cloud-fundamentals-fortinet.pdf", badge: "assets/badges/fortinet-nse-1-cybersecurity.svg", badgeAlt: "Official Fortinet NSE 1 Cybersecurity badge", badgeSourceUrl: "https://www.fortinet.com/training-certification" },
@@ -147,9 +144,6 @@ const translations = {
       badgeSource: "Referencia del emisor",
       badgeUnavailable: "Sin badge público",
       listed: "Listado en el perfil fuente",
-      onFile: "Certificado disponible",
-      course: "Curso completado",
-      historical: "Credencial histórica",
       cards: [
         { type: "course", mark: "AL", markClass: "alaimo", title: "Certified Scrum Product Owner (CSPO)", issuer: "ALAIMO Labs", note: "Curso de 16 horas completado el 5 de septiembre de 2023. El documento suministrado es un certificado de asistencia; se muestra el badge oficial de Scrum Alliance como arte del emisor.", file: "assets/certifications/cspo-alaimo-labs.pdf", badge: "assets/badges/scrum-alliance-cspo.png", badgeAlt: "Badge Scrum Alliance Certified Scrum Product Owner", badgeSourceUrl: "https://www.scrumalliance.org/get-certified/product-owner-track/certified-scrum-product-owner" },
         { type: "course", mark: "FT", markClass: "fortinet", title: "Cybersecurity and Cloud Fundamentals 1.0", issuer: "Fortinet", note: "Curso completado según constancia del 20 de agosto de 2026; se muestra el badge oficial Fortinet NSE 1 Cybersecurity.", file: "assets/certifications/cybersecurity-cloud-fundamentals-fortinet.pdf", badge: "assets/badges/fortinet-nse-1-cybersecurity.svg", badgeAlt: "Badge oficial Fortinet NSE 1 Cybersecurity", badgeSourceUrl: "https://www.fortinet.com/training-certification" },
@@ -216,12 +210,6 @@ function renderExperience(content) {
   `).join("");
 }
 
-function credentialLabel(type, content) {
-  if (type === "listed") return content.listed;
-  if (type === "historical") return content.historical;
-  return content.course;
-}
-
 function renderCredentials(content) {
   const list = document.querySelector("#credential-list");
   list.innerHTML = content.credentials.cards.map((card) => `
@@ -230,11 +218,8 @@ function renderCredentials(content) {
         ${card.badge
           ? `<span class="credential-mark credential-mark--image ${card.badgeKind === "certificate" ? "is-certificate" : ""}"><img class="credential-badge-image" src="${card.badge}" alt="${card.badgeAlt || card.title}" /></span>`
           : `<span class="credential-mark credential-mark--unavailable" role="img" aria-label="${content.credentials.badgeUnavailable}">${content.credentials.badgeUnavailable}</span>`}
-        <p class="credential-type">${credentialLabel(card.type, content.credentials)}</p>
       </div>
       <h3>${card.title}</h3>
-      <p class="credential-issuer">${card.issuer}</p>
-      <p>${card.note}</p>
       <div class="credential-links">
         ${card.file ? `<a class="credential-link" href="${card.file}" target="_blank" rel="noreferrer">${content.credentials.view} <span>↗</span></a>` : `<span class="credential-link credential-link--status">${content.credentials.listed}</span>`}
         ${card.badgeSourceUrl ? `<a class="credential-link credential-link--source" href="${card.badgeSourceUrl}" target="_blank" rel="noreferrer">${content.credentials.badgeSource} <span>↗</span></a>` : ""}
